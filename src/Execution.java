@@ -50,9 +50,9 @@ public class Execution {
 
             p.pcb.set_regs();
 
-            System.out.println("hi from while");
+            //System.out.println("hi from while");
             for ( int i = 0; i <2; i++ ) {
-                System.out.println("hi");
+                //System.out.println("hi");
                 clockcycle = clockcycle +2;
                 codeCounter = p.pcb.getSpecialPurposeRegisters().getCodeCounter();
                 codeLimit = p.pcb.getSpecialPurposeRegisters().getCodeLimit();
